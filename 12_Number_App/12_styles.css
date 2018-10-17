@@ -1,0 +1,71 @@
+body{
+    font-family: "Comic Sans MS", sans-serif;
+    margin: 0;
+}
+header , footer{
+    background: white url("img/nature_path.jpg") no-repeat fixed center;
+    background-size: cover;
+    padding: 10px;
+    font-size: 25px;
+    color: orangered;
+    text-align: center;
+    text-shadow: 2px 2px yellow;
+}
+
+footer{
+    background: white url("img/nature_path.jpg") no-repeat fixed center;
+    background-size: cover;
+    padding: 10px;
+    font-size: 20px;
+    color: orangered;
+    text-align: center;
+    line-height: 12px;
+    /* to fix in the bottom */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.main-section{
+   text-align: center;
+    padding: 50px;
+}
+.heading-div{
+   background-color: green;
+    padding: 20px;
+    width: 500px;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 0 0 20px orangered;
+}
+input[type='number']{
+    height: 40px;
+    font-size: 30px;
+    text-align: center;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 3px solid black;
+    color: yellow;
+}
+::placeholder{
+    color: orangered;
+}
+.display-div{
+    padding: 3em;
+    background-color: green;
+    margin-top: 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px orangered;
+}
+.display-div h1{
+    font-size: 50px;
+    padding: 0;
+    margin: 0;
+    color: orangered;
+}
+footer a{
+    color: orangered;
+}
+
+
+
